@@ -1,4 +1,4 @@
-packages = ["gnome"]
+packages = ["gnome", "gnome-nettool", "gnome-system-monitor"]
 
 script = """
 set -eux

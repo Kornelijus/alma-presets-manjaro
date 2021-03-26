@@ -7,6 +7,7 @@ packages = [
     "pamac-gtk",
     "pamac-snap-plugin",
     "pamac-flatpak-plugin",
+    "mpv",
 ]
 
 script = """
