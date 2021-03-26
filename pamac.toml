@@ -1,0 +1,9 @@
+packages = ["pamac-gtk", "pamac-snap-plugin", "pamac-flatpak-plugin"]
+
+script = """
+set -eux
+
+systemctl enable apparmor
+systemctl enable snapd.apparmor
+systemctl enable snapd
+"""

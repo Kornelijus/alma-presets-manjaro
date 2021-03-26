@@ -1,0 +1,12 @@
+packages = [
+    "manjaro-gnome-assets",
+    "manjaro-gdm-theme",
+    "manjaro-hello",
+    "manjaro-application-utility",
+    "manjaro-settings-manager-notifier",
+    "manjaro-documentation-en",
+    "manjaro-browser-settings",
+    "manjaro-release",
+    "manjaro-firmware",
+    "manjaro-system",
+]

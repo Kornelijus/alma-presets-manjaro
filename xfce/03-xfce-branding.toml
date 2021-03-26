@@ -1,0 +1,17 @@
+packages = [
+    "manjaro-xfce-settings",
+    "manjaro-hello",
+    "manjaro-application-utility",
+    "manjaro-settings-manager-notifier",
+    "manjaro-documentation-en",
+    "manjaro-browser-settings",
+    "manjaro-release",
+    "manjaro-firmware",
+    "manjaro-system",
+]
+
+script = """
+cp /shared_dirs/xfce-branding/lightdm-gtk-greeter.conf /etc/lightdm/lightdm-gtk-greeter.conf
+"""
+
+shared_directories = ["shared"]

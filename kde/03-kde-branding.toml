@@ -1,0 +1,13 @@
+packages = [
+    "manjaro-kde-settings",
+    "manjaro-hello",
+    "manjaro-application-utility",
+    "manjaro-settings-manager-knotifier",
+    "manjaro-settings-manager-kcm",
+    "manjaro-documentation-en",
+    "manjaro-browser-settings",
+    "manjaro-release",
+    "manjaro-firmware",
+    "manjaro-system",
+    "sddm-breath-theme",
+]

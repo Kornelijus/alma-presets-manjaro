@@ -1,0 +1,7 @@
+packages = ["gnome"]
+
+script = """
+set -eux
+
+systemctl enable gdm
+"""

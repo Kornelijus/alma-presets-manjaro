@@ -1,0 +1,13 @@
+packages = [
+    "xfce4-goodies",
+    "xfce4-pulseaudio-plugin",
+    "pulseaudio",
+    "pavucontrol",
+    "mugshot",
+    "engrampa",
+    "catfish",
+    "firefox",
+    "screenfetch",
+    "thunderbird",
+    "network-manager-applet",
+]

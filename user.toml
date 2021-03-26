@@ -1,0 +1,12 @@
+packages = ["sudo"]
+
+script = """
+set -eux
+
+useradd -m ${ALMA_USER}
+passwd ${ALMA_USER}
+usermod -G users,lp,video,network,storage,wheel,audio -a ${ALMA_USER}
+echo "%wheel ALL=(ALL) ALL" > /etc/sudoers.d/99_wheel
+"""
+
+environment_variables = ["ALMA_USER"]
