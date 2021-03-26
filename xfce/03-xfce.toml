@@ -3,6 +3,12 @@ packages = [
     "ttf-dejavu",
     "lightdm-gtk-greeter-settings",
     "accountsservice",
+    "xfce4-goodies",
+    "xfce4-pulseaudio-plugin",
+    "mugshot",
+    "engrampa",
+    "catfish",
+    "network-manager-applet",
 ]
 
 script = """

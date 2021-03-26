@@ -1,0 +1,7 @@
+packages = ["plasma", "kio-extras", "kdebase", "plasma-nm", "plasma-pa"]
+
+script = """
+set -eux
+
+systemctl enable sddm
+"""
